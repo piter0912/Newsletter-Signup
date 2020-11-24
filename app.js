@@ -29,9 +29,9 @@ app.post("/", function(req, res){
    const data = {
       members: [
          {
-            "email_address": email,
-            "status": "subscribed",
-            "marge_fields": {
+            email_address: email,
+            status: "subscribed",
+            marge_fields: {
                FNAME: firstname,
                LNAME: lastName
             }
